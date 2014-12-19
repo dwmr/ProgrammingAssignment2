@@ -3,7 +3,7 @@
 ## after being constructed once.
 
 ## makeCacheMatrix creates a cache object (list) continaing methods to access
-## an original (non-inverted) and inverted version of a specified matrix.
+## original (non-inverted) and inverted versions of a specified matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
